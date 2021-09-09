@@ -33,5 +33,5 @@ You can define how many seconds[s], minutes[m], hours[h], days[d], weeks[w], mon
 		{{sendMessage nil "Sticky messages are now disabled and deleted again."}}
 	{{end}}
 {{else}}
-	{{sendMessage nil (cembed "title" "Missing permissions" "description" (print "<:cross:705738821110595607> You are missing the permission `" $perms "` to use this command!") "color" 0xDD2E44)}}
+	{{sendMessage nil (cembed "title" "Missing permissions" "description" (print "<:x:> You are missing the permission `" $perms "` to use this command!") "color" 0xDD2E44)}}
 {{end}}
