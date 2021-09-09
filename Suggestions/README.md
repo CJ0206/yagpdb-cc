@@ -7,7 +7,7 @@ This is custom code for [YAGPDB](https://yagpdb.xyz/) which will take a users su
 Go to the cutom commnads tab in your [YAGPDB](https://yagpdb.xyz/) dashboard, I suggest creating a group called something like `Suggestions` to keep things in nice groups.
 - Click `Create a new Custom Command`
 - Select `Trigger Type` and choose `Command (mention/cmd prefix)` and decide on your trigger, in our example we will use `suggest`
-- Copy the code from the [Suggestions](https://github.com/CJ0206/yagpdb/blob/main/Suggestions/Suggetions) file and paste it into `Response`
+- Copy the code from the [Suggestions](https://github.com/CJ0206/yagpdb/blob/main/Suggestions/Suggetions.lua) file and paste it into `Response`
 - Set `Channel/User role restrictions` to `Only run in the following channels` and select your suggestions channel
 - Save
 
