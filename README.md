@@ -6,8 +6,12 @@ I did not write the majority of these so please check out the **Attribution** se
 
 ## [Sticky Messages](https://github.com/CJ0206/yagpdb/tree/main/Sticky%20Message)
 
-Set a message which will stick to the bottom of a [Discord](https://discord.com/) channel through a custom embed, no matter how many people send messages in the channel this embed will be moved to the bottom after `x` amount of time to ensure important information is not missed. (Origional code by [BlackWolfWoof](hhttps://github.com/BlackWolfWoof/yagpdb-cc/tree/master/Sticky_Message/v2)
+Set a message which will stick to the bottom of a [Discord](https://discord.com/) channel through a custom embed, no matter how many people send messages in the channel this embed will be moved to the bottom after `x` amount of time to ensure important information is not missed.
+
+<sub>(Origional code by <a href="https://github.com/BlackWolfWoof/yagpdb-cc/tree/master/Sticky_Message/v2">BlackWolfWoof</a>)</sub>
 
 ## [Suggestions](https://github.com/CJ0206/yagpdb/tree/main/Suggestions)
 
-Take a suggestion and turn it into a custom embed with voting buttons, there is also the option to automatically delete anything which isn't a suggestion from the channel. (Origional code by **Michdi#1602**, as posted on the [YAGPDB](https://docs.yagpdb.xyz/reference/custom-command-examples#suggestion-command) website.)
+Take a suggestion and turn it into a custom embed with voting buttons, there is also the option to automatically delete anything which isn't a suggestion from the channel.
+
+<sub>(Origional code by **Michdi#1602**, as posted on the <a href="https://docs.yagpdb.xyz/reference/custom-command-examples#suggestion-command">YAGPDB</a> website.)</sub>
