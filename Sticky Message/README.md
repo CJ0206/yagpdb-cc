@@ -74,7 +74,7 @@ You can turn off the sticky notification by posting `[prefix]sm`
 
 
 ## Attribution
-Origional code by [BlackWolfWoof](hhttps://github.com/BlackWolfWoof/yagpdb-cc/tree/master/Sticky_Message/v2)
+Origional code by [BlackWolfWoof](https://github.com/BlackWolfWoof/yagpdb-cc/tree/master/Sticky_Message/v2)
 
 ```
 Copyright (c): Black Wolf, 2021
