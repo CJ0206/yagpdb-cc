@@ -49,7 +49,7 @@ We can edit the time (`5` = 5 seconds) the submitted successfully/reminder notif
 
 The last configerable part of this code is not really necessary if the bot has been set up to delete everything whis is not a suggestion from the channel, unless someone you have whitelisted submits a suggestion. Similar to line 22 deleting the bots response, we can edit the time (`5` = 5 seconds) the invocation (user posting their suggestion) will stay in the channel on line 23:
 ```
-{{deleteResponse 5}}
+{{deleteTrigger 5}}
 ```
 
 ## How to use the bot
