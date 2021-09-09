@@ -2,21 +2,23 @@
 # Sticky Message
 This is custom code for [YAGPDB](https://yagpdb.xyz/) which will keep a custom embed at the bottom of a defined [Discord](https://discord.com/) channel, rather than users not checking pinned messages or an announcement channel you can ensure they see your most important messages by getting a bot to post it at the bottom of your channel no matter how many people post something after your announcement, it will remove its previous embed when it posts a new one.
 
+**You must create both custom commands.**
+
 ## Setting up the bot
 
 Go to the *cutom commnads* tab in your [YAGPDB](https://yagpdb.xyz/) dashboard, I suggest creating a group called something like `Sticky Messages` to keep them in nice groups.
 - Click `Create a new Custom Command`
 - Select `Trigger Type` and choose `Command (mention/cmd prefix)` and decide on your trigger, in our example we will use `sm`
-- Copy the code from the [command](https://github.com/CJ0206/yagpdb/blob/main/Sticky%20Message/command) file and paste it into `Response`
+- Copy the code from the [command](https://github.com/CJ0206/yagpdb/blob/main/Sticky%20Message/command.lua) file and paste it into `Response`
 - Save
 
 - Click `Create a new Custom Command`
 - Select `Trigger Type` and choose `Regex`
-- Copy the code from the [regex](https://github.com/CJ0206/yagpdb/blob/main/Sticky%20Message/regex) file and paste it into `Response`
+- Copy the code from the [regex](https://github.com/CJ0206/yagpdb/blob/main/Sticky%20Message/regex.lua) file and paste it into `Response`
 - Save
 
 ## Customising the code
-### [command](https://github.com/CJ0206/yagpdb/blob/main/Sticky%20Message/command)
+### [command](https://github.com/CJ0206/yagpdb/blob/main/Sticky%20Message/command.lua)
 If we look at the command file first, we can specify who can run the command using line 3:
 ```
 {{$perms := "Administrator"}}
@@ -47,7 +49,7 @@ Line 33 lets the user know the sticky message has been turned off:
 {{sendMessage nil "Sticky messages are now disabled and deleted again."}}
 ```
 
-### [regex](https://github.com/CJ0206/yagpdb/blob/main/Sticky%20Message/regex)
+### [regex](https://github.com/CJ0206/yagpdb/blob/main/Sticky%20Message/regex.lua)
 The regex allows us to decide which channels the command will run in, if this is not defined it will run in every channel the bot has permission to post in. Line 2 allows you to turn the whitelist on or off depending on if you want it to run in every channel or not:
 ```
 {{$whitelist := true}}
