@@ -16,7 +16,7 @@ Take a suggestion and turn it into a custom embed with voting buttons, there is 
 
 <sub>(Origional code by **Michdi#1602**, as posted on the <a href="https://docs.yagpdb.xyz/reference/custom-command-examples#suggestion-command">YAGPDB</a> website.)</sub>
 
-## [Licence](/https://github.com/CJ0206/yagpdb-cc/blob/main/LICENSE)
+## [Licence](https://github.com/CJ0206/yagpdb-cc/blob/main/LICENSE)
 ```
 Copyright ©: Christian James-Watkins, 2021
 License: MIT
