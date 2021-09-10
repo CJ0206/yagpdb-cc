@@ -17,14 +17,14 @@
 		"author" (sdict
 		"name" (print $users " - Mod Panel")
 		"icon_url" $usera)
-		"description" "<a:bongoban:636572687124398081> - Ban, 👢 - Kick, <:servermute:711553322225500201> - Mute, 🔊 - Unmute, ❌ - Close Menu")}}
+		"description" "🔨 - Ban, 👢 - Kick, <:servermute:711553322225500201> - Mute, 🔊 - Unmute, ❌ - Close Menu")}}
 
 	{{/*Permission Check*/}}
 	{{$var1 := split (index (split (exec "viewperms") "\n") 2) ", "}}
 
 	{{/*Ban*/}}
 	{{if (in $var1 "BanMembers")}}
-		{{addMessageReactions nil $x "a:bongoban:636572687124398081"}}
+		{{addMessageReactions nil $x "🔨"}}
 	{{end}}
 
 	{{/*Kick*/}}
