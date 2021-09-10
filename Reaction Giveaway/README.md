@@ -59,7 +59,7 @@ To list all giveaways use `-giveaway list` This will list the giveaway ID, prize
 
 ## Attribution
 
-Origional code by [Satty9361](https://github.com/BlackWolfWoof/yagpdb-cc/tree/master/Moderation_Menu)
+Origional code by [Satty9361](https://github.com/Satty9361/yagpdb-cc/tree/master/giveaway/basic_v2)
 
 
 This version is posted with the MIT standard licence and is subject to change, this is mainly a step by step to keep track of my own changes and related documentation to make updates easier.
