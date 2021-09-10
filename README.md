@@ -4,6 +4,12 @@ Here is a collection of custom commands I use for [YAGPDB (Yet Another General P
 
 I did not write the majority of these so please check out the **Attribution** section on each page and make sure you give the creator any kudos, I've mearly added to or amended their code for my purposes, or just written a better explination and documentation for me.
 
+## [AFK System](https://github.com/CJ0206/yagpdb-cc/tree/main/AFK)
+
+Let others know when you are away from [Discord](https://discord.com/) by letting the bot tell them why you are away, and how long you will be.
+
+<sub>(Origional code by <a href="https://github.com/DaviiD1337/yagpdb_custom_commands/tree/master/afk">DaviiD1337</a>)</sub>
+
 ## [Mod Menu](https://github.com/CJ0206/yagpdb/tree/main/Sticky%20Message)
 
 A quick moderation menu for [Discord](https://discord.com/) moderators to ban, kick, mute, or unmute users with preset times.
