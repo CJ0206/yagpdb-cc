@@ -32,7 +32,7 @@
 		{{$usera = $user.AvatarURL "1024"}}
 	{{end}}
 	{{/*Ban User*/}}
-	{{if eq .Reaction.Emoji.Name "bongoban"}}
+	{{if eq .Reaction.Emoji.Name "🔨"}}
 		{{range $call}}
 			{{$grab = (print $grab " " .Value)}}
 		{{end}}
@@ -43,7 +43,7 @@
 				"author" (sdict
 					"name" (print $users " - Mod Panel")
 					"icon_url" $usera)
-				"description" "Option to ban <a:bongoban:636572687124398081> this user:\n🍏 - 1 Day\n🍎 - 1 Week\n🍊 - 2 Months\n🍋 - 4 Months\n🍌 - Permanent"
+				"description" "Option to ban 🔨 this user:\n🍏 - 1 Day\n🍎 - 1 Week\n🍊 - 2 Months\n🍋 - 4 Months\n🍌 - Permanent"
 				"color" 0x77FF68)}}
 				{{deleteAllMessageReactions nil .Reaction.MessageID}}
 				{{addMessageReactions nil .Reaction.MessageID "🍏" "🍎" "🍊" "🍋" "🍌" "❌"}}
@@ -75,7 +75,7 @@
 	{{end}}
 
 	{{/*Mute User*/}}
-	{{if eq .Reaction.Emoji.ID 711553322225500201}}
+	{{if eq .Reaction.Emoji.Name "🔈"}}
 		{{range $call}}
 			{{$grab = (print $grab " " .Value)}}
 		{{end}}
@@ -86,7 +86,7 @@
 				"author" (sdict
 					"name" (print $users " - Mod Panel") 
 					"icon_url" $usera)
-				"description" "Option to mute <:servermute:711553322225500201> this user:\n🍏 - 5 Minutes\n🍎 - 10 Minutes\n🍊 - 20 Minutes\n🍋 - 1 Hour"
+				"description" "Option to mute 🔈 this user:\n🍏 - 5 Minutes\n🍎 - 10 Minutes\n🍊 - 20 Minutes\n🍋 - 1 Hour"
 				"color" 0x77FF68)}}
 				{{deleteAllMessageReactions nil (str .Reaction.MessageID)}}
 				{{addMessageReactions nil (str .Reaction.MessageID) "🍏" "🍎" "🍊" "🍋" "❌"}}
