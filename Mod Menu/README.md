@@ -23,6 +23,10 @@ If you wish to cutomise any of the code here you **must** ensure you update all 
 
 If you wish to change the time limits people are muted/banned for then I suggest searching the [reactions](https://github.com/CJ0206/yagpdb-cc/blob/main/Mod%20Menu/reactions.lua) document for the corresponding emoji updating the text.
 
+## How to use the bot
+
+Just type `[prefix]mod [@user]` to moderate `[@user]`.
+
 ## Attribution
 
 Origional code by [BlackWolfWoof](https://github.com/BlackWolfWoof/yagpdb-cc/tree/master/Moderation_Menu)
