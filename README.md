@@ -16,6 +16,12 @@ A quick moderation menu for [Discord](https://discord.com/) moderators to ban, k
 
 <sub>(Origional code by <a href="https://github.com/BlackWolfWoof/yagpdb-cc/tree/master/Moderation_Menu">BlackWolfWoof</a>)</sub>
 
+## [Reaction Giveaway](https://github.com/CJ0206/yagpdb-cc/tree/main/Reaction%20Giveaway)
+
+A quick moderation menu for [Discord](https://discord.com/) moderators to ban, kick, mute, or unmute users with preset times.
+
+<sub>(Origional code by <a href="https://github.com/Satty9361/yagpdb-cc/tree/master/giveaway/basic_v2">Satty9361</a>)</sub>
+
 ## [Sticky Messages](https://github.com/CJ0206/yagpdb/tree/main/Sticky%20Message)
 
 Set a message which will stick to the bottom of a [Discord](https://discord.com/) channel through a custom embed, no matter how many people send messages in the channel this embed will be moved to the bottom after `x` amount of time to ensure important information is not missed.
