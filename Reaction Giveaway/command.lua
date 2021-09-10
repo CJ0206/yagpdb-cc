@@ -59,7 +59,7 @@
 {{$desc := (joinStr `` ` :gift: | **Prize:** *` $prize "*\n\n") }}
 {{if gt $maxW 0}}{{$desc = joinStr "" $desc " :trophy: | **Max Winners:** "  $maxW }}
 {{$desc = joinStr "" $desc "\n\n🌟 | **Host:** <@" $.User.ID ">" }} {{end}}
-{{editMessageNoEscape $chan . (cembed "title" "**Giveaway Time!!**🎉🎉" "description"  $desc "color" 2202060 "footer" (sdict "text" (joinStr "" "ID: " $uniqueID " | Giveaway Ends " )) "timestamp" $giveawaySdict.expiresAt) }}
+{{editMessageNoEscape $chan . (cembed "title" "🎉 **Giveaway Time!!** 🎉" "description"  $desc "color" 3066993 "footer" (sdict "text" (joinStr "" "ID: " $uniqueID " | Giveaway Ends " )) "timestamp" $giveawaySdict.expiresAt) }}
 
 {{with (dbGet 7777 "giveaway_active").Value}}{{$dbData = sdict .}}{{end}}
 {{$dbData.Set $ID $giveawaySdict}}{{dbSet 7777 "giveaway_active" $dbData}}
@@ -109,7 +109,7 @@
 {{$chan := .chan}}{{$prize := .prize}}
 {{cancelScheduledUniqueCC (toInt $CCID) .uID}}
 {{$msg := index ( split $ID (toString $chan)) 1}}
-{{with (getMessage $chan $msg )}}{{editMessageNoEscape $chan $msg (cembed "title" "**Giveaway Cancelled!**" "description" (joinStr "" ">>> **Prize:** "  $prize) "footer" (sdict "text" "Giveaway Cancelled") "color" 12257822 )}}{{end}}Done!
+{{with (getMessage $chan $msg )}}{{editMessageNoEscape $chan $msg (cembed "title" "**Giveaway Cancelled**" "description" (joinStr "" ">>> **Prize:** "  $prize) "footer" (sdict "text" "Giveaway Cancelled") "color" 12257822 )}}{{end}}Done!
 
 {{else}}
 **Error:** Invalid ID ``{{$uID}}``
@@ -175,7 +175,7 @@ No Active Giveaways.
 
 {{$desc := joinStr "" ">>> **Prize:** " .prize "\n**Host: <@" $.User.ID ">**" "\n**Winners:** " }}
 {{if  $countWinners }}{{$desc = joinStr "" $desc $winnerList}}{{else}}{{$desc = joinStr "" $desc "No Participants :frowning: "}}{{end}}
-{{with (getMessage $chan $msg )}}{{$host :=  reFind `\*\*Host:\*\* <@\\d+>` (index .Embeds 0).Description}} {{editMessageNoEscape $chan $msg (cembed "title" "**Giveaway Ended!**" "description" $desc "footer" (sdict "text" "Giveaway Ended at ") "timestamp" currentTime "color" 12257822 )}}{{end}}
+{{with (getMessage $chan $msg )}}{{$host :=  reFind `\*\*Host:\*\* <@\\d+>` (index .Embeds 0).Description}} {{editMessageNoEscape $chan $msg (cembed "title" "**Giveaway Ended**" "description" $desc "footer" (sdict "text" "Giveaway Ended at ") "timestamp" currentTime "color" 15158332 )}}{{end}}
 
 {{if $countWinners}}
 {{sendMessage nil (joinStr "" "**Prize:** *" .prize "*\n**Winner(s) :** " $winnerList)}}
