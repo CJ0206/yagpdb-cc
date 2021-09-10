@@ -4,6 +4,12 @@ Here is a collection of custom commands I use for [YAGPDB (Yet Another General P
 
 I did not write the majority of these so please check out the **Attribution** section on each page and make sure you give the creator any kudos, I've mearly added to or amended their code for my purposes, or just written a better explination and documentation for me.
 
+## [Mod Menu](https://github.com/CJ0206/yagpdb/tree/main/Sticky%20Message)
+
+A quick moderation menu for [Discord](https://discord.com/) moderators to ban, kick, mute, or unmute users with preset times.
+
+<sub>(Origional code by <a href="https://github.com/BlackWolfWoof/yagpdb-cc/tree/master/Moderation_Menu">BlackWolfWoof</a>)</sub>
+
 ## [Sticky Messages](https://github.com/CJ0206/yagpdb/tree/main/Sticky%20Message)
 
 Set a message which will stick to the bottom of a [Discord](https://discord.com/) channel through a custom embed, no matter how many people send messages in the channel this embed will be moved to the bottom after `x` amount of time to ensure important information is not missed.
