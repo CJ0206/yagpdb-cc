@@ -1,4 +1,3 @@
-
 # Sticky Message
 This is custom code for [YAGPDB](https://yagpdb.xyz/) which will keep a custom embed at the bottom of a defined [Discord](https://discord.com/) channel, rather than users not checking pinned messages or an announcement channel you can ensure they see your most important messages by getting a bot to post it at the bottom of your channel no matter how many people post something after your announcement, it will remove its previous embed when it posts a new one.
 
