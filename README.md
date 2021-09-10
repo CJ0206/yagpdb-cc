@@ -18,7 +18,7 @@ A quick moderation menu for [Discord](https://discord.com/) moderators to ban, k
 
 ## [Reaction Giveaway](https://github.com/CJ0206/yagpdb-cc/tree/main/Reaction%20Giveaway)
 
-A quick moderation menu for [Discord](https://discord.com/) moderators to ban, kick, mute, or unmute users with preset times.
+A quick way to create a reaction giveaway for [Discord](https://discord.com/). Members just select the emoji and they are entered into the giveaway, you can set how long the giveaway will run for, the number of winners, the maximum entrants, and even type the code in one channel and post the giveaway to another.
 
 <sub>(Origional code by <a href="https://github.com/Satty9361/yagpdb-cc/tree/master/giveaway/basic_v2">Satty9361</a>)</sub>
 
