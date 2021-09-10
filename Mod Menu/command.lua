@@ -17,7 +17,7 @@
 		"author" (sdict
 		"name" (print $users " - Mod Panel")
 		"icon_url" $usera)
-		"description" "🔨 - Ban, 👢 - Kick, <:servermute:711553322225500201> - Mute, 🔊 - Unmute, ❌ - Close Menu")}}
+		"description" "🔨 - Ban, 👢 - Kick, 🔈 - Mute, 🔊 - Unmute, ❌ - Close Menu")}}
 
 	{{/*Permission Check*/}}
 	{{$var1 := split (index (split (exec "viewperms") "\n") 2) ", "}}
@@ -37,7 +37,7 @@
 	{{/*Mute*/}}
 	{{if (in $var1 "ManageRoles")}}
 		{{if $user}}
-			{{addMessageReactions nil $x "servermute:711553322225500201" "🔊"}}
+			{{addMessageReactions nil $x "🔈" "🔊"}}
 		{{end}}
 	{{end}}
 
