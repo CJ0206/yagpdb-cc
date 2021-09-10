@@ -75,7 +75,7 @@
 	{{end}}
 
 	{{/*Mute User*/}}
-	{{if eq .Reaction.Emoji.Name "🔈"}}
+	{{if eq .Reaction.Emoji.Name "🔇"}}
 		{{range $call}}
 			{{$grab = (print $grab " " .Value)}}
 		{{end}}
@@ -86,7 +86,7 @@
 				"author" (sdict
 					"name" (print $users " - Mod Panel") 
 					"icon_url" $usera)
-				"description" "Option to mute 🔈 this user:\n🍏 - 5 Minutes\n🍎 - 10 Minutes\n🍊 - 20 Minutes\n🍋 - 1 Hour"
+				"description" "Option to mute 🔇 this user:\n🍏 - 5 Minutes\n🍎 - 10 Minutes\n🍊 - 20 Minutes\n🍋 - 1 Hour"
 				"color" 0x77FF68)}}
 				{{deleteAllMessageReactions nil (str .Reaction.MessageID)}}
 				{{addMessageReactions nil (str .Reaction.MessageID) "🍏" "🍎" "🍊" "🍋" "❌"}}
