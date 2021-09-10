@@ -9,7 +9,7 @@ Once you are done with the pannel make sure to click "❌" to close out the oper
 Go to the *cutom commnads* tab in your [YAGPDB](https://yagpdb.xyz/) dashboard, I suggest creating a group called something like `Mod Menu` to keep them in nice groups.
 - Click `Create a new Custom Command`
 - Select `Trigger Type` and choose `Command (mention/cmd prefix)` and decide on your trigger, in our example we will use `mod`
-- Copy the code from the [command](https://github.com/CJ0206/yagpdb-cc/blob/main/Mod%20Menu/command.luaa) file and paste it into `Response`
+- Copy the code from the [command](https://github.com/CJ0206/yagpdb-cc/blob/main/Mod%20Menu/command.lua) file and paste it into `Response`
 - Save
 
 - Click `Create a new Custom Command`
