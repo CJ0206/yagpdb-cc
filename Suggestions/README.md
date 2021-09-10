@@ -54,7 +54,7 @@ The last configerable part of this code is not really necessary if the bot has b
 
 ## How to use the bot
 
-Just type `[prefix]suggest [suggestion]` if your suggestions channel and the bot will turn it into an embed wwith voting buttons.
+Just type `[prefix]suggest [suggestion]` if your suggestions channel and the bot will turn it into an embed with voting buttons.
 
 ## Attribution
 
