@@ -19,7 +19,9 @@ Go to the *cutom commnads* tab in your [YAGPDB](https://yagpdb.xyz/) dashboard, 
 
 ## Customising the code
 
-If you wish to cutomise any of the code here you **must** ensure you update all of the documentation, for example, I have updated the ban and mute emoji which was chaned in several places in both documents. If you update an emoji it's frobably best to ude the find (`ctrl`+`F`) function and replace every instance of that emoji in both documents, please note the sub menus are only in the [reactions](https://github.com/CJ0206/yagpdb-cc/blob/main/Mod%20Menu/reactions.lua) document.
+If you wish to cutomise any of the code here you **must** ensure you update all of the documentation, for example, I have updated the ban and mute emoji which was chaned in several places in both documents. If you update an emoji it's probably best to use the find (`ctrl`+`F`) function and replace every instance of that emoji in both documents, please note the sub menus are only in the [reactions](https://github.com/CJ0206/yagpdb-cc/blob/main/Mod%20Menu/reactions.lua) document.
+
+If you wish to change the time limits people are muted/banned for then I suggest searching the [reactions](https://github.com/CJ0206/yagpdb-cc/blob/main/Mod%20Menu/reactions.lua) document for the corresponding emoji updating the text.
 
 ## Attribution
 
