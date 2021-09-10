@@ -58,7 +58,7 @@
 {{addMessageReactions $chan . $giveawayEmoji}}
 {{$desc := (joinStr `` ` :gift: | **Prize:** *` $prize "*\n\n") }}
 {{if gt $maxW 0}}{{$desc = joinStr "" $desc " :trophy: | **Max Winners:** "  $maxW }}
-{{$desc = joinStr "" $desc "\n\n🌟 | **Host:** <@" $.User.ID ">" }} {{end}}
+{{$desc = joinStr "" $desc "\n\n🌟 | **Host:** <@" $.User.ID "> \n\nReact with 🎉 to enter the giveaway!" }} {{end}}
 {{editMessageNoEscape $chan . (cembed "title" "🎉 **Giveaway Time!!** 🎉" "description"  $desc "color" 3066993 "footer" (sdict "text" (joinStr "" "ID: " $uniqueID " | Giveaway Ends " )) "timestamp" $giveawaySdict.expiresAt) }}
 
 {{with (dbGet 7777 "giveaway_active").Value}}{{$dbData = sdict .}}{{end}}
