@@ -1,4 +1,4 @@
-# Mod Meny
+# Mod Menu
 
 This is custom code for [YAGPDB](https://yagpdb.xyz/) which will give moderators a handy menu to kick, ban, or mute users in [Discord](https://discord.com/). Rather than remembering various bot commands, roles, or clicking various menus moderators can just type `-mod <@user>` and the bot will reply with an embed to carry out the necessary task.
 
