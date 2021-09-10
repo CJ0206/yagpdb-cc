@@ -20,6 +20,10 @@ The second part clears the database of any user who leaves and has an AFK set.
 
 I do not recommend editing this code unless you know what you are doing.
 
+## How to use the bot
+
+Just type `[prefix]afk [reason] -d [how long you'll be away]`. If you don't know how long you'll be away you can just use `[prefix]afk [reason]`. 
+
 ## Attribution
 
 Origional code by [DaviiD1337](https://github.com/DaviiD1337/yagpdb_custom_commands/tree/master/afk)
