@@ -59,3 +59,5 @@ Just type `[prefix]suggest [suggestion]` if your suggestions channel and the bot
 ## Attribution
 
 Origional code by **Michdi#1602**, as posted on the [YAGPDB](https://docs.yagpdb.xyz/reference/custom-command-examples#suggestion-command) website.
+
+This version is posted with the MIT standard licence and is subject to change, this is mainly a step by step to keep track of my own changes and related documentation to make updates easier.
