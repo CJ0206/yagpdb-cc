@@ -23,6 +23,10 @@ I do not recommend editing this code unless you know what you are doing, other t
 ```
 {{$giveawayEmoji := `🎉`}}
 ```
+You will also need to update the 🎉 with your new emoji on line 61:
+```
+{$desc = joinStr "" $desc "\n\n🌟 | **Host:** <@" $.User.ID "> \n\nReact with 🎉 to enter the giveaway!" }} {{end}}
+```
 
 ## How to use the bot
 
