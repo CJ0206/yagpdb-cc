@@ -18,7 +18,10 @@ The second part clears the database of any user who leaves and has an AFK set.
 
 ## Customising the code
 
-I do not recommend editing this code unless you know what you are doing.
+I do not recommend editing this code unless you know what you are doing, other than line 1. Personally I want the bot to remove the AFK when someone types in the server, I set this to true in servers I manage.
+```
+{{ $removeAfkOnMessage := false }}
+```
 
 ## How to use the bot
 
