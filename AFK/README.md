@@ -11,7 +11,7 @@ Go to the *cutom commnads* tab in your [YAGPDB](https://yagpdb.xyz/) dashboard, 
 - Save
 
 Go to *Notifications & Feeds*, then *General* tab in your [YAGPDB](https://yagpdb.xyz/) dashboard, turn *User Leave Message* on if it's not already.
-- Copy the code from the [leave](https://github.com/CJ0206/yagpdb-cc/blob/main/AFK/leave.lua) file and paste it into `Message`, if you already have a leave message then paste it at the top of your current message. If you do not wish for a message to be sent whens someone leaves just add `{{ sendMessage nil }}`
+- Copy the code from the [leave](https://github.com/CJ0206/yagpdb-cc/blob/main/AFK/leave.lua) file and paste it into `Message`, if you already have a leave message then paste it at the top of your current message. If you do not wish for a message to be sent when someone leaves just add `{{ sendMessage nil }}`
 - Save
 
 The second part clears the database of any user who leaves and has an AFK set.
