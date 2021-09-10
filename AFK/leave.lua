@@ -1,0 +1,1 @@
+{{ dbDel .User.ID "afk" }}
