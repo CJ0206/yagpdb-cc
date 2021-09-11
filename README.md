@@ -36,7 +36,7 @@ Take a suggestion and turn it into a custom embed with voting buttons, there is 
 
 ## [Licence](https://github.com/CJ0206/yagpdb-cc/blob/main/LICENSE)
 ```
-Copyright ©: Christian James-Watkins, 2021
+Copyright ©: CJ0206, 2021
 License: MIT
 Repository: https://github.com/CJ0206/yagpdb-cc/
 ```
