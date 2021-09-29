@@ -4,7 +4,7 @@ This is custom code for [YAGPDB](https://yagpdb.xyz/) which will let you set up 
 
 ## Setting up the bot
 
-Go to the *cutom commnads* tab in your [YAGPDB](https://yagpdb.xyz/) dashboard, I suggest creating a group called something like `Mod Menu` to keep them in nice groups.
+Go to the *cutom commnads* tab in your [YAGPDB](https://yagpdb.xyz/) dashboard, I suggest creating a group called something like `Giveaway` to keep them in nice groups.
 - Click `Create a new Custom Command`
 - Select `Trigger Type` and choose `Command (mention/cmd prefix)` and decide on your trigger, in our example we will use `giveaway`
 - Copy the code from the [command](https://github.com/CJ0206/yagpdb-cc/blob/main/Reaction%20Giveaway/command.lua) file and paste it into `Response`
